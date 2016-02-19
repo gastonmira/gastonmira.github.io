@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<title>Gastón Mira, Android Dev</title>
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 		<nav>
@@ -14,8 +15,32 @@
 		</nav>
 		<div class="container">
     		<div class="blurb">
-        		<h1>Hi there, I'm Gastón Mira!</h1>
-				<p>I work as an Android Developer at <em>Globant</em>.</p>
+        		<p><span class="blue-bold">public class</span> GastonMira {</p>
+				
+				<p class="body-class"><span class="blue-bold">private </span>String <span class="violet-bold">name </span>= <span class="green-bold">"Gastón Mira"</span>;</p>
+
+				<p class="body-class"><span class="blue-bold">private </span>String <span class="violet-bold">dateOfBirth </span>= <span class="green-bold">"26th September 1987"</span>;</p>
+
+				<p class="body-class"><span class="blue-bold">private </span>String <span class="violet-bold">nationality </span>= <span class="green-bold">"Argentina"</span>;</p>
+				
+				<p class="body-class"><span class="blue-bold">private </span>String <span class="violet-bold">placeOfResidence </span>= <span class="green-bold">"Mar del Plata"</span>;</p>
+
+				<p class="body-class"><span class="blue-bold">private </span>String <span class="violet-bold">linkedin </span>= <span class="green-bold"><a href="https://ar.linkedin.com/in/gastonmira/en">"https://ar.linkedin.com/in/gastonmira/en"</a></span>;</p>
+
+				<p class="body-class"><span class="blue-bold">private </span>String <span class="violet-bold">twitter </span>= <span class="green-bold"><a href="https://twitter.com/gastonmdq">"https://twitter.com/gastonmdq"</a></span>;</p>
+
+				<p class="body-class"><span class="blue-bold">private </span>String <span class="violet-bold">duolingo </span>= <span class="green-bold"><a href="https://www.duolingo.com/gastonmira">"https://www.duolingo.com/gastonmira"</a></span>;</p>
+
+				<p class="body-class"><span class="blue-bold">private void </span>showGastonSkills() {</p>
+				<div class="method">
+					<p class="body-class">Iterator<String> i = gastonSkills.iterator();</p>
+					<p class="body-class"><span class="blue-bold">while </span>(i.hasNext()) {</p>
+					<p class="body-class">System.<span class="violet-bold">out</span>.print(i.next());</p>
+					<p class="body-class"><span class="comment">//Output: Android, Retrofit, Design Patterns in Android, Material Design, Layouts, Agile Development.</span></p>
+					<p class="body-class">}</p>
+				</div>
+				<p class="body-class">}</p>
+				<p>}</p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
